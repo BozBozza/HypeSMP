@@ -30,6 +30,7 @@ public class EyeofHorus extends LegendaryItem {
     }
 
     @Override
+    @SuppressWarnings("deprecation") // still the simplest way to add tooltip lines, works fine
     public void appendHoverText(ItemStack stack, TooltipContext context, TooltipDisplay display, Consumer<Component> tooltip, TooltipFlag flag) {
         super.appendHoverText(stack, context, display, tooltip, flag);
         tooltip.accept(Component.translatable("tooltip.hype.eye_of_horus").withStyle(ChatFormatting.BLUE));

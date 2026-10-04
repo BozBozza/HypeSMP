@@ -5,9 +5,10 @@
   "compatibilityLevel": "JAVA_25",
   "mixins": [
     "MaceDisenchantMixin",
-    "NoEchestMixin",
     "NoMaceEnchantAnvilMixin",
-    "NoMaceEnchantTableMixin"
+    "NoMaceEnchantTableMixin",
+    "NoStorageHopperMixin",
+    "NoStorageSlotMixin"
   ],
   "client": [
   ],
