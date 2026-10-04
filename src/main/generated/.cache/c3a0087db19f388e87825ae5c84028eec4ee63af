@@ -1,2 +1,5 @@
 // 26.1.2	-999999999-01-01T00:00:00	HypeSMP Mod/Tags for minecraft:item
-3b36238fb037aa4a8bd64d299e013d9a97117321 data/hype/tags/item/legendary.json
+7689ed08f2e8340b60994df720b624ced09f0e0f data/hype/tags/item/legendary.json
+970e97775ffed29601845fe9ad85f3701fa494d5 data/minecraft/tags/item/enchantable/durability.json
+970e97775ffed29601845fe9ad85f3701fa494d5 data/minecraft/tags/item/enchantable/equippable.json
+970e97775ffed29601845fe9ad85f3701fa494d5 data/minecraft/tags/item/enchantable/foot_armor.json

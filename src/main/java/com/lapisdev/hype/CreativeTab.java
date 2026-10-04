@@ -16,6 +16,7 @@ public class CreativeTab {
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.EXCALIBUR);
                         output.accept(ModItems.EYE_OF_HORUS);
+                        output.accept(ModItems.SEVEN_LEAGUE_BOOTS);
                     }).build());
 
     public static void registerCreativeTab(){

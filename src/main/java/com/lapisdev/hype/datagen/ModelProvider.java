@@ -19,5 +19,6 @@ public class ModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
         itemModelGenerators.generateFlatItem(ModItems.EXCALIBUR, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.EYE_OF_HORUS, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.SEVEN_LEAGUE_BOOTS, ModelTemplates.FLAT_ITEM);
     }
 }

@@ -1,8 +1,10 @@
 {
   "item.hype.excalibur": "Excalibur",
   "item.hype.eye_of_horus": "Eye of Horus",
+  "item.hype.seven_league_boots": "Seven League Boots",
 
   "tooltip.hype.eye_of_horus": "Grants Resistance I when held",
+  "tooltip.hype.seven_league_boots": "Grants Speed II when worn",
 
   "creativetab.hype": "Legendaries"
 }
