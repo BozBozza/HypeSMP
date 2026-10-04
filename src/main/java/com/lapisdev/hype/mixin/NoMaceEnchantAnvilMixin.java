@@ -8,7 +8,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-// Anvils (books and combining two maces) and /enchant check canEnchant per enchantment
 @Mixin(Enchantment.class)
 public abstract class NoMaceEnchantAnvilMixin {
     @Inject(method = "canEnchant", at = @At("HEAD"), cancellable = true)

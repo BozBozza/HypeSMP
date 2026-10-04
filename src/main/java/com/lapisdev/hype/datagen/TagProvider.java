@@ -21,7 +21,6 @@ public class TagProvider extends FabricTagsProvider.ItemTagsProvider {
                 .add(ModItems.EYE_OF_HORUS)
                 .add(ModItems.SEVEN_LEAGUE_BOOTS);
 
-        // Boot enchantments without joining #foot_armor, which would also make them trimmable
         valueLookupBuilder(ItemTags.FOOT_ARMOR_ENCHANTABLE).add(ModItems.SEVEN_LEAGUE_BOOTS);
         valueLookupBuilder(ItemTags.DURABILITY_ENCHANTABLE).add(ModItems.SEVEN_LEAGUE_BOOTS);
         valueLookupBuilder(ItemTags.EQUIPPABLE_ENCHANTABLE).add(ModItems.SEVEN_LEAGUE_BOOTS);

@@ -26,7 +26,6 @@ public class SevenLeagueBoots extends LegendaryItem {
         if (slot != EquipmentSlot.FEET) return;
         if (!(entity instanceof LivingEntity living)) return;
 
-        // amplifier 1 = Speed II
         living.addEffect(new MobEffectInstance(MobEffects.SPEED, EFFECT_DURATION, 1, true, false));
     }
 
