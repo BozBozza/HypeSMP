@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "hype",
+  "version": "${version}",
+  "name": "HypeSMP Mod",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/hype/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.lapisdev.hype.client.HypeDataGenerator"
+    ],
+    "client": [
+      "com.lapisdev.hype.client.HypeClient"
+    ],
+    "main": [
+      "com.lapisdev.hype.Hype"
+    ]
+  },
+  "mixins": [
+    "hype.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
